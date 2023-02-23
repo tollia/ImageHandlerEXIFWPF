@@ -78,7 +78,8 @@
                 HorizontalContentAlignment="Left" VerticalContentAlignment="Center"
                 FontSize="12"
                 Name="OuputWidth"
-            >768</TextBox>
+                Text="{Binding requestedWidth}"
+            />
             <Label
                 Height="32"
                 Margin="10,0,0,0"
@@ -93,7 +94,8 @@
                 HorizontalContentAlignment="Left" VerticalContentAlignment="Center"
                 FontSize="12"
                 Name="OuputHeight"
-            >768</TextBox>
+                Text="{Binding requestedHeight}"
+            />
         </WrapPanel>
         <Button 
             Grid.Row="3"
